@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{9147AA66-6DA3-FA0C-26AF-E76670CFEF39}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HelloWorld.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
     <Files>
-      <File FileName="Assets/Scripts/HelloWorld2.cs" Line="17" Column="6" />
-      <File FileName="Assets/Scripts/HelloWorld.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/player.cs" Line="43" Column="55" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +9,7 @@
           <Node name="Lab1" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="HelloWorld2.cs" selected="True" />
+                <Node name="Player.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="47c43106-ef02-4e6e-863c-d0731005e64c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fbfe1445-e764-4b5e-bd09-17cf8e70bb7e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
