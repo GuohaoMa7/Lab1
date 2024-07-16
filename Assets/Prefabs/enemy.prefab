@@ -231,6 +231,7 @@ GameObject:
   - component: {fileID: 5334865737325153690}
   - component: {fileID: 6767774221417497978}
   - component: {fileID: 1381328181740011147}
+  - component: {fileID: 4746419027754868338}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -439,3 +440,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   patrolDistance: 50
+--- !u!114 &4746419027754868338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6787440990347459040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc366046e0edda14d93faac6fad7b505, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  patrolDistance: 2
