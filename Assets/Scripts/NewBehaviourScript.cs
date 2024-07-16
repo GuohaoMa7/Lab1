@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public float speed = 0.5f; // Adjusted speed for smoother movement
     public float patrolDistance = 2f; // Half of the total patrol distance (4 units)
+    public float groundY = 0.1f; // Y position of the ground
 
     private Vector3 startPos; // Starting position of the enemy
     private Vector3 leftBound;
@@ -54,5 +55,13 @@ public class Enemy : MonoBehaviour
             moveDirection = Vector3.right;
             Debug.Log("Changing direction to: " + moveDirection);
         }
+
+        // Check if the enemy's Y position has fallen below the ground
+        if (transform.position.y < groundY)
+        {
+            transform.position = new Vector3(transform.position.x, groundY, transform.position.z);
+            Debug.Log("Enemy's Y position has been reset to ground level");
+        }
     }
 }
+
